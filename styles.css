@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 20px 20px 40px;
 }
 
 .content-wrapper {
@@ -97,6 +97,23 @@ h3 {
     line-height: 36px;
     letter-spacing: -4%;
     font-weight: 600;
+}
+
+.banner-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #707070;
+    padding: 0 10px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 7.5px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 5%;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Links and Labels */
@@ -243,7 +260,7 @@ hr {
 
     h3 {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 22px;
         letter-spacing: 0;
     }
 
@@ -320,5 +337,4 @@ hr {
         line-height: 15px;
         font-weight: 600;
     }
-
-} 
+}
