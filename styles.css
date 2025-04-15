@@ -137,7 +137,8 @@ h3 {
     line-height: 15px;
     border-radius: 7.5px;
     font-size: 10px;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 5%;
     color: #ffffff;
     vertical-align: middle;
     margin-left: 8px;
@@ -145,8 +146,15 @@ h3 {
 
 .arrow {
     font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-feature-settings: "liga" 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    unicode-bidi: isolate;
 }
+
 /* Navigation Links */
 nav {
     display: flex;
@@ -322,5 +330,9 @@ hr {
         font-size: 10px;
         line-height: 15px;
         font-weight: 600;
+    }
+
+    .arrow {
+        font-family: 'Inter', sans-serif;
     }
 } 
