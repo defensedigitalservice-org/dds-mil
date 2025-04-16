@@ -6,9 +6,11 @@
 }
 
 body {
+    background: linear-gradient(to bottom, #dfdfdf 0%, #F8F8F8 360px);
     background-color: #F8F8F8;
     font-family: 'Inter', sans-serif;
     color: #1a1a1a;
+    min-height: 100vh;
 }
 
 .container {
