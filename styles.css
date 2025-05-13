@@ -328,7 +328,7 @@ footer .label {
     }
 
     .info-section p {
-        font-size: 15.9px !important; /* TEMPORARY TEST - Slightly different value */
+        font-size: 15.99px !important; /* Workaround for mobile landscape rendering issue */
         line-height: 22px;
         letter-spacing: 0.5px;
         margin: 0;
