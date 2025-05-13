@@ -264,11 +264,12 @@ footer {
 /* Style the label specifically inside the footer */
 footer .label {
     background-color: transparent;
+    border: none; /* No border by default/on desktop */
     color: #9f9f9f;
 }
 
 /* Mobile Styles */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     body {
         margin-left: 0;
         margin-right: 0;
@@ -356,7 +357,6 @@ footer .label {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
-        margin-bottom: 60px;
     }
 
     .archived-images h3,
@@ -379,6 +379,17 @@ footer .label {
     }
 
     footer {
-        margin-top: 40px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+    /* Add border to footer label only on mobile */
+    footer .label {
+        background-color: #9f9f9f;
+        color: #000000;
+        display: block; /* Make it a block to go to a new line */
+        margin-left: 0; /* Remove default left margin */
+        margin-top: 8px; /* Add some space above the tag */
+        width: fit-content; /* Make width wrap content */
     }
 }
