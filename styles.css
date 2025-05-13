@@ -392,4 +392,11 @@ footer .label {
         margin-top: 8px; /* Add some space above the tag */
         width: fit-content; /* Make width wrap content */
     }
+
+    .info-section p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        margin: 0;
+    }
 }
