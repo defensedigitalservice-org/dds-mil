@@ -135,12 +135,14 @@ h2 {
 
 /* Links and Labels */
 .archived-images,
+.archived-video,
 .external-links {
     position: relative;
     padding-top: 10px;
 }
 
 .archived-images::before,
+.archived-video::before,
 .external-links::before {
     content: '';
     position: absolute;
@@ -152,6 +154,7 @@ h2 {
 }
 
 .archived-images h3,
+.archived-video h3,
 .external-links h3 {
     font-size: 14px;
     line-height: 15px;
@@ -360,6 +363,7 @@ footer .label {
     }
 
     .archived-images h3,
+    .archived-video h3,
     .external-links h3 {
         font-size: 12px;
         line-height: 15px;
